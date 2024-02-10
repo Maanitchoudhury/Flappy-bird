@@ -7,9 +7,8 @@ class MyBird extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        alignment: Alignment(0, birdY),
-        height: 60,
-        width: 60,
-        child: Image.asset('assets/images/flappy.png'));
+      alignment: Alignment(0, birdY),
+      child: Image.asset('assets/images/flappy.png', width: 60, height: 60),
+    );
   }
 }
